@@ -7,7 +7,7 @@ function sleep(ms) {
 async function main() {
   const favoriteFood = process.env.FAVORITE_FOOD;
 
-  while(true) {
+  while(true) { 
     console.log(`Favorite Food ${favoriteFood}`);
     await sleep(5000);
   }
